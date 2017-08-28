@@ -1,0 +1,113 @@
+.sprite {
+    background-image: url(spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cart {
+    width: 21px;
+    height: 20px;
+    background-position: -10px -10px;
+}
+
+.sprite-cart-2 {
+    width: 21px;
+    height: 20px;
+    background-position: -10px -50px;
+}
+
+.sprite-checked-checkbox {
+    width: 20px;
+    height: 20px;
+    background-position: -10px -90px;
+}
+
+.sprite-cow {
+    width: 48px;
+    height: 49px;
+    background-position: -10px -130px;
+}
+
+.sprite-enter-icon {
+    width: 21px;
+    height: 19px;
+    background-position: -10px -199px;
+}
+
+.sprite-enter-icon-black {
+    width: 21px;
+    height: 19px;
+    background-position: -10px -238px;
+}
+
+.sprite-facebook {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -277px;
+}
+
+.sprite-hit-icon {
+    width: 61px;
+    height: 61px;
+    background-position: -10px -329px;
+}
+
+.sprite-ice-icon {
+    width: 49px;
+    height: 49px;
+    background-position: -10px -410px;
+}
+
+.sprite-instagram {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -479px;
+}
+
+.sprite-leaf-icon {
+    width: 49px;
+    height: 49px;
+    background-position: -10px -531px;
+}
+
+.sprite-loupe {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -600px;
+}
+
+.sprite-loupe-black {
+    width: 17px;
+    height: 17px;
+    background-position: -10px -637px;
+}
+
+.sprite-small-ice-cart1 {
+    width: 33px;
+    height: 33px;
+    background-position: -10px -674px;
+}
+
+.sprite-small-ice-cart2 {
+    width: 33px;
+    height: 33px;
+    background-position: -10px -727px;
+}
+
+.sprite-thermo-icon {
+    width: 48px;
+    height: 49px;
+    background-position: -10px -780px;
+}
+
+.sprite-twiter {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -849px;
+}
+
+.sprite-vk-icon {
+    width: 32px;
+    height: 32px;
+    background-position: -10px -901px;
+}
