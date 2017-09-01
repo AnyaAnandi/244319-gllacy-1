@@ -13,7 +13,7 @@
         
         <div class="logo">
           <a href="index.html">
-            <img src="img/logo.png" width="154" height="64" alt="GllacyShop">
+            <img src="img/logo.svg" width="154" height="64" alt="GllacyShop">
           </a>
         </div>
         <nav class="main-menu">
@@ -38,14 +38,14 @@
         </nav>
         <div class="user-block">
           <form class="loupe" action="https://echo.htmlacademy.ru" method="post">
-            <button class="sprite loupe-btn"></button>
+            <button class="loupe-btn"></button>
             <div class="search">
               <input id="search" class="search-field" type="text" name="search">
               <label for="search" class="search-label">Что ищем?</label>
             </div>
           </form>
           <div class="enter-padding">
-            <div class="sprite enter"><span class="enter-label">Вход</span>
+            <div class="enter"><span class="enter-label">Вход</span>
             <form class="login" action="https://echo.htmlacademy.ru" method="post">
               <input id="email" class="e-mail" type="text" name="e-mail">
               <label for="email" class="e-mail-label">Электронная почта</label>
@@ -58,9 +58,9 @@
           </div>
         </div>
         <div class="cart-with-item-padding">
-          <div class="sprite cart-with-item"><span class="cart-with-item-label">2 товара</span>
+          <div class="cart-with-item"><span class="cart-with-item-label">2 товара</span>
           <div class="cart">
-            <table>
+            <table class="table">
               <tr>
                 <td class="cross"></td>
                 <td class="ice-small"><img src="img/small-ice-cart1.png" width="33" height="33" alt="Маленькое мороженое">
@@ -109,12 +109,14 @@
     <form class="search-criteria" action="https://echo.htmlacademy.ru" method="post">
       <div class="sort">
         <label for="sort-by">Сортировка:</label>
-        <select id="sort-by" name="theme">
-          <option class="sort-category" value="popular">по популярности</option>
-          <option value="cheap">сначала недорогие</option>
-          <option value="expensive">сначала дорогие</option>
-          <option value="fat">по жирности</option>
-        </select>
+        <div class="sorty">
+          <select id="sort-by" name="theme">
+            <option class="sort-category" value="popular">по популярности</option>
+            <option value="cheap">сначала недорогие</option>
+            <option value="expensive">сначала дорогие</option>
+            <option value="fat">по жирности</option>
+          </select>
+        </div>
       </div>
       <div class="filter-range">
         <div class="filter-range-title">Цена:</div>
@@ -294,10 +296,10 @@
     <footer class="main-footer">
       <div class="main-footer-layout container">
         <div class="footer-social">
-          <a class="social-btn sprite social-btn-tw" title="Twitter" href="#">Twitter</a>
-          <a class="social-btn sprite social-btn-in" title="Instagram" href="#">Instagram</a>
-          <a class="social-btn sprite social-btn-fb" title="Facebook" href="#">Facebook</a>
-          <a class="social-btn sprite social-btn-vk" title="VKontakte" href="#">VK</a>
+          <a class="social-btn social-btn-tw" title="Twitter" href="#">Twitter</a>
+          <a class="social-btn social-btn-in" title="Instagram" href="#">Instagram</a>
+          <a class="social-btn social-btn-fb" title="Facebook" href="#">Facebook</a>
+          <a class="social-btn social-btn-vk" title="VKontakte" href="#">VK</a>
         </div>
         <div class="footer-navigation">
           <ul class="navigation">
@@ -318,7 +320,7 @@
         <div class="footer-copyright">
           <div class="footer-logo">
             <a href="https://htmlacademy.ru">
-              <img src="img/html-logo.png" width="108" height="38" alt="HTML Academy">
+              <img src="img/logo-htmlacademy.svg" width="108" height="38" alt="HTML Academy">
             </a>
           </div>
           <p>Сделано в <a class="footer-link" href="https://htmlacademy.ru"> HTML Academy</a> @ 2017</p>
